@@ -7,7 +7,7 @@ function QuotesApp() {
     const [showFavorites, setShowFavorites] = useState(false)
 
     const fetchNewQuote = () => {
-        fetch('http://localhost:3000/quote/')
+        fetch('https://api-quotes-69tf.onrender.com//quote/')
             .then(response => response.json())
             .then(data => setQuote(data))
             .catch(error => console.error('Erro ao buscar citação', error))

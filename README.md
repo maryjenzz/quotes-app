@@ -1,16 +1,16 @@
-# React + Vite
+# Quotes App (React + Node.js API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto completo que consiste numa aplicação web construída com **React** para visualizar citações inspiradoras, alimentada por uma **API REST** personalizada desenvolvida em **Node.js**.
 
-Currently, two official plugins are available:
+## 🚀 Estrutura do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O repositório está dividido em duas partes principais:
 
-## React Compiler
+1. **/quotes-app**: A interface do utilizador (Frontend) desenvolvida em React.
+2. **/api-quotes**: O servidor (Backend) que fornece os dados das citações.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend**: React, Vite, CSS3.
+* **Backend**: Node.js, Express, CORS.
+* **Dados**: Armazenamento em ficheiro JSON.

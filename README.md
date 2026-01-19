@@ -14,3 +14,9 @@ O repositório está dividido em duas partes principais:
 * **Frontend**: React, Vite, CSS3.
 * **Backend**: Node.js, Express, CORS.
 * **Dados**: Armazenamento em ficheiro JSON.
+
+---
+
+## 📦 Como Ver o Projeto
+
+Acesse https://maryjenzz.github.io/quotes-app/
